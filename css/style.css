@@ -1,0 +1,286 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	color: #424551;
+}
+.block{
+	margin: 0 auto;
+	max-width: 810px;
+	padding: 152px 0 120px 0;
+	margin-bottom: 40px;
+}
+.title{
+	font-family: "Lato",
+	sans-serif;
+	color: #1E212C;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 26px;
+}
+.title-bar{
+	margin-bottom: 40px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787A80;
+}
+.text-bar{
+}
+.text-bar::before{
+	content: "";
+	display: inline-block;
+	background: url(../img/Calendar.svg) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+}
+.text-bar-2{
+}
+.text-bar-2::before{
+		content: "";
+		display: inline-block;
+		background: url(../img/Clock.svg) 0 0 no-repeat;
+		width: 16px;
+		height: 16px;
+		margin-right: 8px;
+}
+
+.socials{
+display: inline-block;
+}
+.share {
+	display: inline-block;
+	padding: 3px 0px;
+}
+.share span{
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 12px;
+	color: #1E212C;
+}
+.socials li{
+	display: inline-block;
+	line-height: 0.7;
+	margin-right: 12px;
+}
+.facebook{
+	display: inline-block;
+	background: url(../img/Facebook.svg) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.twitter {
+	display: inline-block;
+	background: url(../img/Twitter.svg) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.linkedin {
+	display: inline-block;
+	background: url(../img/Linked-In.svg) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.image-block{
+	margin: 0 0 60px 0;
+}
+.text{
+	font-weight: 700;
+	line-height: 30px;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.text-2{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 32px;
+}
+.text-3 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 48px;
+}
+.pseudo{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;
+	margin-bottom: 48px;
+}
+.pseudo::before{
+	content: "";
+	display: inline-block;
+	width: 28px;
+	height: 20px;
+	background: url(../img/braces.svg) 0 0 no-repeat;
+	margin-right: 30px;
+}
+.text-4 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 24px;
+}
+.list{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 24px;
+}
+.list li{
+	background: url(../img/check.svg) 0 5px no-repeat;
+	padding-left: 32px;
+}
+.text-5{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 63px;}
+.share-2{
+	margin-left: 640px;
+}
+.title-game{
+	font-weight: 900;
+	font-size: 55px;
+	color: yellow;
+	padding: 15px;
+	margin-left: 200px;
+}
+.block-game{
+	width: 800px;
+	height: 1200px;
+	background-image: url(../img/9e86f3dca5a10ee8ec1a0cbc9de8715f.jpeg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+}
+.line{
+	color: white;
+	background-color: green;
+	padding: 10px;
+	margin-right: 705px;
+	cursor: pointer;
+}
+.line-2{
+	background-color: green;
+	height: 200px;
+	width: 50px;
+	margin-left: 20px;
+	visibility: hidden;
+		cursor: pointer;
+}
+.line:hover ~ .line-2, .line-2:hover{
+	visibility: visible;
+}
+.line-3 {
+	background-color: green;
+	height: 35px;
+	width: 650px;
+	margin-left: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.line-2:hover~.line-3,
+.line-3:hover {
+	visibility: visible;
+}
+.line-4 {
+	background-color: green;
+	height: 180px;
+	width: 25px;
+	margin-left: 645px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.line-3:hover~.line-4,
+.line-4:hover {
+	visibility: visible;
+}
+.line-5 {
+	background-color: green;
+	height: 15px;
+	width: 470px;
+	margin-left: 200px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.line-4:hover~.line-5,
+.line-5:hover {
+	visibility: visible;
+}
+.line-6 {
+	background-color: green;
+	height: 300px;
+	width: 20px;
+	margin-left: 200px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.line-5:hover~.line-6,
+.line-6:hover {
+	visibility: visible;
+}
+.line-7 {
+	background-color: green;
+	height: 15px;
+	width: 165px;
+	margin-left: 200px;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.line-6:hover~.line-7,
+.line-7:hover {
+	visibility: visible;
+}
+.line-8 {
+	background-color: green;
+	height: 115px;
+	width: 15px;
+	margin-left: 350px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.line-7:hover~.line-8,
+.line-8:hover {
+	visibility: visible;
+}
+.line-9 {
+	background-color: green;
+	height: 10px;
+	width: 15px;
+	margin-left: 350px;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.line-8:hover~.line-9,
+.line-9:hover {
+	visibility: visible;
+}
+.finish{
+	display: inline-block;
+	background: url(../img/1d4488370042d11bbd6d2f1b323f7685_w200.gif) 0 0 no-repeat;
+	height: 200px;
+	width: 222px;
+	visibility: hidden;
+	margin-left: 300px;
+}
+.line-9:hover~.finish,
+.finish:hover {
+	visibility: visible;
+}
+
